@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(78, 87, 105);
+}
+
+#viewer{
+    margin-bottom: 5px;
+    height: 130px;
+    font-size: 2rem;
+    background-color: white;
+    padding: 10px;
+    text-align: right;
+    padding-top: 40px;
+}
+
+.buttons{
+    width: 100px;
+    height: 80px;
+    margin: 2px 1px 2px 1px;
+    font-size: 1.8rem;
+    border: none;
+    outline: none;
+    color: white;
+    transition: .2s;
+}
+
+.buttons.number{
+    background-color: rgb(47, 56, 75);
+}
+
+.buttons.operator{
+    background-color: rgb(12, 158, 226);
+}
+
+#equal{
+    font-size: 2rem;
+    width: 100%;
+}
+
+#container{
+    background-color: rgb(34, 40, 53);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 60px;
+}
+
+.buttons:hover{
+    opacity: .5;
+}
